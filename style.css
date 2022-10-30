@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Montserrat;
+    background-color: #e6e6e6; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/*
+
+class .
+id #
+*/
+
+#container{
+    width: 80%;
+    background-color: aquamarine;
+}
+/*************** NAVIGATION *************/
+
+
+/***************** HEADER ***************/
+#div-header {
+    background-color: aqua;
+    padding-top: 30px;
+    display: flex;
+    flex-direction:row;
+}
+#header-logo{
+    background-color: yellow;
+    padding-left: 25px;
+    width: 50%;
+    
+}
+#header-bolinhas{
+    background-color: blueviolet;
+    width: 50%;
+    height: 75px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: end;
+}
+.bolinha{
+    background-color: palevioletred;
+    width: 2.5em;
+    height:2.5em;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+#ilustracao-header{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+#ilustracao-header img {
+    position: center;
+}
+#texto-design{
+    background-color: yellowgreen;
+    align-self: flex-start;
+    position: start;
+}
+
+#texto-design p{
+    font-size: 20px;
+}
+
+#texto-historia{
+    background-color: yellowgreen;
+    align-self: flex-end;
+    position: end;
+}
+
+#texto-historia p{
+    font-size: 20px;
+
+}
+
+/***************** MAIN *****************/
+
+/***************** FOOTER ***************/
