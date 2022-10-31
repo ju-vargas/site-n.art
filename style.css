@@ -60,6 +60,7 @@ id #
 }
 #ilustracao-header img {
     position: center;
+    background-color: violet;
 }
 #texto-design{
     background-color: yellowgreen;
@@ -79,9 +80,41 @@ id #
 
 #texto-historia p{
     font-size: 20px;
-
 }
 
 /***************** MAIN *****************/
+#titulo-section-1{
+    width: 100%;
+    background-color: tomato;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+#texto-section-1{
+    font-size: 39px;
+    font-weight:450;
+}
+#subtexto-section-1{
+    font-size: 23px;
+}
+#container-janelas-1{
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    flex-direction:row;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
+   
+    
+}
+.janela-solucao{
+    height: 450px;
+    width: 25%;
+    background-color: deeppink;
+    margin-top: 50px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+   
+}
 
 /***************** FOOTER ***************/
