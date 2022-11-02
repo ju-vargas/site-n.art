@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="27.6728mm" height="28.8834mm" version="1.0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 344.65 359.73"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle fill="#A9DEDE" cx="216.86" cy="316.18" r="11.85"/>
+  <circle fill="#669999" cx="96.75" cy="52.61" r="24.78"/>
+  <polygon fill="white" points="132.32,336.33 198.69,143.63 "/>
+  <path fill="#DE9666" fill-rule="nonzero" d="M120.72 357.61l74.19 -215.28 7.57 2.6 -73.9 214.8c-2.02,-0.57 -5.37,-1.27 -7.86,-2.12z"/>
+  <ellipse fill="#456E6E" transform="matrix(0.288735 0.0805217 -0.0805217 0.288735 185.772 172.211)" rx="548.33" ry="163.44"/>
+  <ellipse fill="#669999" transform="matrix(0.219486 0.0612098 -0.0612098 0.219486 185.772 172.211)" rx="548.33" ry="163.44"/>
+  <ellipse fill="#99CCCC" transform="matrix(0.168876 0.0470956 -0.0470956 0.168876 185.772 172.211)" rx="548.33" ry="163.44"/>
+  <ellipse fill="#A9DEDE" transform="matrix(0.117343 0.0327245 -0.0327245 0.117343 185.772 172.211)" rx="548.33" ry="163.44"/>
+  <g id="_2706041741104">
+   <path fill="#DE9666" d="M190 169.06l-27.1 -7.93c3.52,-12.03 14.56,-20.3 27.1,-20.3 15.59,0 28.23,12.64 28.23,28.23 0,2.31 -0.28,4.61 -0.84,6.85l-27.39 -6.85z"/>
+   <ellipse fill="#DE9666" transform="matrix(0.0496302 0.0138408 -0.0138408 0.0496302 190.186 168.32)" rx="548.33" ry="163.44"/>
+  </g>
+  <circle fill="#669999" cx="234.6" cy="251.43" r="3.6"/>
+  <circle fill="#669999" cx="6.61" cy="128.91" r="6.61"/>
+  <circle fill="#669999" cx="48.81" cy="194.69" r="3.24"/>
+  <circle fill="#669999" cx="45.51" cy="103.99" r="3.24"/>
+  <circle fill="#669999" cx="17.88" cy="167.66" r="11.19"/>
+  <circle fill="#669999" cx="269.09" cy="251.34" r="11.19"/>
+  <polygon fill="white" points="195.35,154.58 223.11,74.01 "/>
+  <path fill="#DE9666" fill-rule="nonzero" d="M191.57 153.28l53.07 -153.28c2.9,1.19 5.35,2.25 7.3,3.12l-52.8 152.76 -7.57 -2.6z"/>
+ </g>
+</svg>

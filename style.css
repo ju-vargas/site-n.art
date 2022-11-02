@@ -3,7 +3,8 @@ html {
   }
 
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat Alternates';
+    color:#414242;
     background-color: #e6e6e6; 
     display: flex;
     flex-direction: column;
@@ -17,7 +18,7 @@ id #
 */
 
 #container{
-    width: 80%;
+    width: 60%;
     background-color: aquamarine;
 }
 /*************** NAVIGATION *************/
@@ -25,61 +26,69 @@ id #
 
 /***************** HEADER ***************/
 #div-header {
-    background-color: aqua;
+    /*background-color: aqua;*/
     padding-top: 30px;
     display: flex;
     flex-direction:row;
 }
 #header-logo{
-    background-color: yellow;
+    /*background-color: yellow;*/
     padding-left: 25px;
     width: 50%;
     
 }
 #header-bolinhas{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     width: 50%;
-    height: 75px;
+    
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: end;
 }
 .bolinha{
-    background-color: palevioletred;
-    width: 2.5em;
-    height:2.5em;
-    border-radius: 50%;
+    /*background-color: palevioletred;*/
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
     margin-right: 5px;
 
 }
-#ilustracao-header{
+#ilustracao-container{
+    width: 100%;
     display: flex;
-    align-items: center;
+    /*background-color: peru;*/
+}
+#ilustracao-header{
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    margin: auto;
     margin-top: 100px;
+    /*background-color: blueviolet;*/
 }
 #ilustracao-header img {
     position: center;
-    background-color: violet;
+    /*background-color: violet;*/
+    width: 100%;
 }
-#texto-design{
-    background-color: yellowgreen;
-    align-self: flex-start;
-    position: start;
-}
+
 
 #texto-design p{
     font-size: 20px;
-}
-
-#texto-historia{
-    background-color: yellowgreen;
-    align-self: flex-end;
-    position: end;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-weight: lighter;
 }
 
 #texto-historia p{
-    font-size: 20px;
+    font-size: 23px;
+    position: absolute;
+    bottom:50px;
+    right: 15px;
+    font-weight: lighter;
+
 }
 
 /***************** MAIN *****************/
@@ -91,30 +100,96 @@ id #
 }
 #texto-section-1{
     font-size: 39px;
-    font-weight:450;
+    font-weight: bold;
+ 
 }
 #subtexto-section-1{
     font-size: 23px;
+    font-weight: lighter;
 }
-#container-janelas-1{
-    width: 100%;
+#container-janelas{
+    width: 95%;
     background-color: steelblue;
     display: flex;
     flex-direction:row;
     margin-left: 20px;
     justify-content: space-between;
     padding-right: 20px;
+    margin-bottom: 160px;
    
     
 }
 .janela-solucao{
-    height: 450px;
-    width: 25%;
-    background-color: deeppink;
+    height: 420px;
+    width: 30%;
+    background-color: #ffffff;
     margin-top: 50px;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    
    
 }
+.janela-circulo{
+    background-color: #E6E6E6;
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+.ondinha{
+    position: absolute;
+    right: -7px;
+    bottom: -2px;
+    width: 100%;
+}
 
+.janela-img{
+    width: 75%;
+    z-index: 1;
+}
+#janela-img-3{
+    position: absolute;
+    width: 93%;
+    top:0px;
+}
+.janela-texto{
+    position: absolute;
+    margin-left: 18px;
+    bottom: 0px;
+    height: 48%;
+    
+}
+.janela-texto p{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.janela-texto .titulo-janela{
+    font-size: 33px;
+    font-weight:bolder;
+    margin-top: 15px;
+}
+.bottom-janela-texto{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    bottom:20px;
+}
+.bottom-janela-circulo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
 /***************** FOOTER ***************/
